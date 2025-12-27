@@ -18,8 +18,8 @@ jobs:
         uses: typst-community/setup-typst@v4
       - name: Compile documents
         run: |
-          sudo chmod +x ./build.sh
-          ./build.sh
+          sudo chmod +x ./build-full.sh
+          ./build-full.sh
       - name: Upload PDFs
         uses: actions/upload-artifact@v4
         with:
@@ -27,6 +27,10 @@ jobs:
           path: |
             kti.pdf
             kaims.pdf
+            kask.pdf
+            ksg.pdf
+            kisi.pdf
+            kio.pdf
             default.pdf
   release:
     needs: build

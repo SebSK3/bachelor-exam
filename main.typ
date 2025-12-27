@@ -1,5 +1,12 @@
 #import "res/format.typ": project
 
+// #figure(
+//   image("images/nazwa_obrazka.jpg", width: 80%), // <-- szerokość do potencjalnej zmiany
+//   caption: [
+//     Opis obrazka
+//   ],
+// )
+
 #show: project.with(
   title: "Egzamin Inżynierski",
   branch: "Informatyka PG",
@@ -60,9 +67,21 @@
   include "profil-kaims.typ"
 } else if (target == "kti"){
   include "profil-kti.typ"
+} else if (target == "kask"){
+  include "profil-kask.typ"
+} else if (target == "ksg"){
+  include "profil-ksg.typ"
+} else if (target == "kisi"){
+  include "profil-kisi.typ"
+} else if (target == "kio"){
+  include "profil-kio.typ"
 } else {
   include "profil-kaims.typ"
   include "profil-kti.typ"
+  include "profil-kask.typ"
+  include "profil-ksg.typ"
+  include "profil-kisi.typ"
+  include "profil-kio.typ"
 }
 
 #bibliography("res/bibliography.bib")

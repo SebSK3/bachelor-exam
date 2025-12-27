@@ -1,7 +1,9 @@
 # Opracowanie na Egzamin Inżynierski PG
 
 Celem tego repozytorium jest umożliwienie opracowania pytań na egzamin inżynierski w styczniu 2026 roku.
-21 pytań jest wspólnych, a każda katedra dodaje do tego 10 swoich pytań. O ile na ten moment przygotowane są pytania dla KTI oraz KAiMS, tak w idealnym świecie chciałbym zorganizować tutaj całość dyskusji oraz pracy nad pytaniami.
+21 pytań jest wspólnych, a każda katedra dodaje do tego 10 swoich pytań. 
+
+Chciałbym zorganizować tutaj całość dyskusji oraz pracy nad pytaniami.
 
 # Narzędzia
 

@@ -1,0 +1,7 @@
+#import "../../res/question.typ": question
+
+#show: question.with(
+  q: "Opisz po jednym wzorcu projektowym z grupy wzorców kreacyjnych, strukturalnych i behawioralnych."
+)
+
+TODO.

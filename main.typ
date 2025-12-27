@@ -7,17 +7,20 @@
 //   ],
 // )
 
+#let target = sys.inputs.at("target", default: "")
+
+#let flavor = "Wydanie " + (if target != "" { upper(target) } else { "Domyślne" })
+
 #show: project.with(
   title: "Egzamin Inżynierski",
+  supertitle: flavor,
   branch: "Informatyka PG",
   academic-year: "2025/2026",
   polish: true,
   footer-text: "",
   subject: "Egzamin Inżynierski",
-  version: "0.0.0"
+  version: "v0.0.0"
 )
-
-#let target = sys.inputs.at("target", default: "")
 
 = Pytania kierunkowe
 

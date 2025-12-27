@@ -13,6 +13,8 @@ Dodatkowo polecam rozszerzenie Tinymist do VS Code, które dodaje m.in. dynamicz
 
 Dokumentację do języka można znaleźć [tutaj](https://typst.app/docs/).
 
+Dołączone są skrypty pozwalające na kompilację wersji domyślnej (`build.sh`) (zawierającej wszystkie katedry) oraz "pełną kompilację" (`build-full.sh`), która dodatkowo kompiluje 6 dokumentów - po jednym dla każdej katedry. Skrypty stworzone są na Linuxa w ramach kompatybilności z CI/CD, ale możliwe jest uruchomienie pojedynczych komend na dowolnym systemie.
+
 # Contributing
 
 Przed rozpoczęciem jakiejkolwiek pracy która miałaby znaleźć się w głównym repozytorium, proszę o konsultację z [polityką wnoszenia wkładu](https://github.com/dopp1e/bachelor-exam/blob/master/CONTRIBUTING.md).

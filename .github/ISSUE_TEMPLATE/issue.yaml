@@ -1,0 +1,27 @@
+name: Zgłoszenie problemu z odpowiedzią na pytanie
+description: Zgłoś problem z odpowiedzią na pytanie egzaminacyjne
+title: '[Problem]: (Katedra) (Numer pytania) Treść pytania'
+labels: ['bug']
+body:
+  - type: markdown
+    attributes:
+      value: Dziękujemy za zgłoszenie problemu!
+  - type: textarea
+    id: description
+    attributes:
+      label: Opis
+      description: Na czym polega problem z odpowiedzią na pytanie egzaminacyjne?
+      placeholder: Opisz problem jak najdokładniej potrafisz. Jeśli jesteś w stanie, zasugeruj poprawkę, najlepiej razem z uzasadnieniem / źródłem.
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Checklista
+      description: Upewnijmy się, że to zgłoszenie jest ważne!
+      options:
+        - label: "\"Contribution guidelines\" zostały przeze mnie przeczytane i je akceptuję."
+          required: true
+        - label: "Zaznaczam wszystkie pola bez ich przeczytania."
+          required: false
+        - label: "Upewniłem/am się że pytanie, które chcę opracować, nie jest już opracowywane przez kogoś innego."
+          required: true
